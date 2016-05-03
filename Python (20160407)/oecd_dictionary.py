@@ -1,7 +1,7 @@
-# µñ¼Å³Ê¸®¸¦ ÀÌ¿ëÇÏ¸é ´õ Àß ¸¸µé¼ö ÀÖÁö ¾ÊÀ»±î?
+# ë”•ì…”ë„ˆë¦¬ë¥¼ ì´ìš©í•˜ë©´ ë” ì˜ ë§Œë“¤ìˆ˜ ìˆì§€ ì•Šì„ê¹Œ?
 # conti_cnt = {"ASIA" : ++ }
-# has_key functionÀ» ÀÌ¿ëÇÏ¸é conti_cnt.has_key -> key °¡ Á¸ÀçÇÏ³Ä¸¦ °Ë»çÇØÁØ´Ù -> True False Ãâ·Â 
-# if true ¸é ±âÁ¸ value +1 else value = 1
+# has_key functionì„ ì´ìš©í•˜ë©´ conti_cnt.has_key -> key ê°€ ì¡´ì¬í•˜ëƒë¥¼ ê²€ì‚¬í•´ì¤€ë‹¤ -> True False ì¶œë ¥ 
+# if true ë©´ ê¸°ì¡´ value +1 else value = 1
 f=open('./data/oecd.txt','r')
 lines = f.readlines()
 
@@ -11,14 +11,14 @@ conti_gdp={}
 country_gdp={}
 for line in lines:
     splited = line.split('\t')
-    if conti_cnt.has_key(splited[0]):               # count ºÎºĞ
+    if conti_cnt.has_key(splited[0]):               # count ë¶€ë¶„
         conti_cnt[splited[0]] += 1
     else:
         conti_cnt[splited[0]] = 1
-    if conti_gdp.has_key(splited[0]):               # gdp ºÎºĞ
+    if conti_gdp.has_key(splited[0]):               # gdp ë¶€ë¶„
         conti_gdp[splited[0]] += float(splited[2])
     else:
-        conti_gdp[splited[0]] = float(splited[2])   # ±× °ªÀ¸·Î ÃÊ±âÈ­ÇØ¾ßÁö
+        conti_gdp[splited[0]] = float(splited[2])   # ê·¸ ê°’ìœ¼ë¡œ ì´ˆê¸°í™”í•´ì•¼ì§€
 gdp_avg={}
 for key in conti_gdp.keys():
     gdp_avg[key] = conti_gdp[key] / conti_cnt[key]
@@ -28,5 +28,5 @@ print conti_cnt
 print conti_gdp
 print gdp_avg
 
-#{'Japan':[ASIA, gdp] ÀÌ·±½ÄÀ¸·Î ÇÏ¸é ¾î¶³±î?}
+#{'Japan':[ASIA, gdp] ì´ëŸ°ì‹ìœ¼ë¡œ í•˜ë©´ ì–´ë–¨ê¹Œ?}
 #a[field[1]] = [f[1

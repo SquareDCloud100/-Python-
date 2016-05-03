@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>95de88c7-ddf1-4ff6-b68b-a567d832e0f9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>naeconomics.py</StartupFile>
+    <StartupFile>oecd_wirte_file(20160503).py</StartupFile>
     <SearchPath>.</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -23,6 +23,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="20160503 필기.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="naeconomics.py">
       <SubType>Code</SubType>
     </Compile>
@@ -30,6 +33,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="oecd_dictionary.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="oecd_more complicated.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="oecd_wirte_file%2820160503%29.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

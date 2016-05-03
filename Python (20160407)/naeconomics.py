@@ -1,13 +1,16 @@
+# 나경제씨 코드
+
 f = open('./data/oecd.txt')
 lines = f.readlines()
 gdp=0
 conti_cnt = {}
 conti_gdp = {}
+con_con ={}
 for line in lines:
     fields=line.split("\t")
 #    print fields[0]
     gdp+= float(fields[2])
-    con_con ={}
+
     con_con[fields[1]] = [fields[0], fields[2]]
     if conti_cnt.has_key(fields[0]):
         conti_cnt[fields[0]] += 1
