@@ -1,0 +1,31 @@
+name	st-id	phone	status	email
+이재민	2009-13322	01071245443	학생//연구생	i_withm@hanmail.net
+김보미	2013-10431	01044354163	학생//연구생	jk9516@hanmail.net
+김병식	2013-12193	0103233465	학생///연구생	kandalama01@gmail.com
+박해근	2012-12610	01042004772	학생////연구생	zizizu@snu.ac.kr
+전기수	2009-13731	01025372557	학생/연구생	seraphi818@gmail.com
+강대호	2006-11377		학생/연구생	creahoice@gmail.com
+김하진 2012-15984 0220177439 학생//연구생	semsema018@hotmail.com
+최예지	2010-10680	01051283878	학생//연구생	sylvia@snu.ac.kr
+Doug	2013-21983	01023744639	졸업생	doug@snu.ac.kr
+Doug	2013-21983		졸업생	doug@snu.ac.kr
+정은지	2009-27761	01025425568	학생/연구생	vid.kasre@gmail.com
+박우현	2010-10024	022688150	학생///연구생	mara.posier@gmail.com
+김진우 2007-11346 01087896134 학생//연구생 cattle1142@gmail.com	likerainsun@gmail.com
+김 선영	2010-10572	01037976711	학생//연구생	thomclark@gmail.com
+하 성도	2007-16841	01037066988	학생/연구생	zeppie@snu.ac.kr
+김남석	2010-10578	01048018099	학생//연구생	ma32b@snu.ac.kr
+이숙진	2008-12517	01050347484		ckyks9339@naver.com
+김재영	2006-10464	01067468822	학생/연구생	hydrangea602@gmail.com
+김영훈	2011-10466	01067478822	학생/연구생	glycerin47@gmail.com
+권락희	2011-16810	01052806614	학생/연구생	miston@hotmail.com
+문태영	2011-10700	01067965515	학생/연구생	kaamasos7@gmail.com
+조성우	2007-10180	01071282425	학생/연구생	nixddie@gmail.com
+
+1. 학생@연구생으로 바꾸기
+2. 성과 이름 사이에 공백이 있는 이름을 붙이기
+3. 레코드 사이에 스페이스를 텝으로 교체
+4. 전화 번호 사이에 "-" 넣기
+5. 2010년 이후 학번 중 "김"씨 성 학생 레코드 전체 인식
+6. 이메일 주소 인식
+

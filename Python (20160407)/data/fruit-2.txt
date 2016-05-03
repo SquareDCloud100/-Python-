@@ -1,0 +1,8 @@
+﻿fruit2_orange
+fruit1_apple
+fruit1_apple
+fruit1_apple
+fruit2_orange
+fruit2_orange
+fruit1_apple
+fruit1_apple
