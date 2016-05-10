@@ -1,5 +1,5 @@
 import codecs
-f=codecs.open('./data/oecd_unicode_test.txt','r', 'utf-8') # 앞에 아시아 두개를 한국어로 바꾼 버전의 파일
+f=open('./data/oecd.txt','r') # 앞에 아시아 두개를 한국어로 바꾼 버전의 파일
 g=open('./data/oecd_result.txt','w')
 lines = f.readlines()
 
@@ -25,8 +25,9 @@ for key in conti_gdp.keys():
 for key in country_gdp.keys():                      # 국가로 도는 키
     print key, gdp_avg[country_gdp[key][0]], country_gdp[key][1]    # country_gdp[key][0] ->대륙 [1] -> 국가 
     if gdp_avg[country_gdp[key][0]] < country_gdp[key][1]:
+        gdp = country_gdp[key][1]
         print [country_gdp[key][0]], key, gdp
-        data = "%s, %f, %s, %f\n" % country_gdp[key][0], gdp_avg[country_gdp[key][0]], key, gdp
+        data = "%s, %s, %s, %s\n" % (country_gdp[key][0], gdp_avg[country_gdp[key][0]], key, gdp)
         # join을 써도 된다.
         # data = "\t".join([country_gdp[key][0], str(gdp_avg[country_gdp[key][0]]), key, str(gdp)])
         g.write(data)

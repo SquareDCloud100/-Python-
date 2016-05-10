@@ -45,6 +45,9 @@
   <ItemGroup>
     <InterpreterReference Include="{d9219422-9bb5-4e25-b028-1cf1c5128f20}\2.7" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="20160510 필기.txt" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>

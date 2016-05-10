@@ -1,0 +1,30 @@
+Asia, 2002.26666667, Korea Rep. of, 969.9
+Asia, 2002.26666667, Japan, 4379.7
+Asia, 2002.26666667, Turkey, 657.2
+America, 5430.0, Canada, 1425.9
+America, 5430.0, Mexico, 1022.8
+America, 5430.0, United States, 13841.3
+Europe, 784.895454545, Austria, 373.4
+Europe, 784.895454545, Belgium, 453.4
+Europe, 784.895454545, Czech Rep., 175.0
+Europe, 784.895454545, Denmark, 311.4
+Europe, 784.895454545, Finland, 244.5
+Europe, 784.895454545, France, 2555.3
+Europe, 784.895454545, Germany, 3321.9
+Europe, 784.895454545, Greece, 313.2
+Europe, 784.895454545, Hungary, 138.2
+Europe, 784.895454545, Iceland, 20.0
+Europe, 784.895454545, Ireland, 253.6
+Europe, 784.895454545, Italy, 2100.4
+Europe, 784.895454545, Luxembourg, 49.4
+Europe, 784.895454545, Netherlands, 765.4
+Europe, 784.895454545, Norway, 390.4
+Europe, 784.895454545, Poland, 420.1
+Europe, 784.895454545, Portugal, 222.8
+Europe, 784.895454545, Slovakia, 75.0
+Europe, 784.895454545, Spain, 1436.2
+Europe, 784.895454545, Sweden, 454.3
+Europe, 784.895454545, Switzerland, 423.6
+Europe, 784.895454545, United Kingdom, 2770.2
+Australia, 518.4, Australia, 908.6
+Australia, 518.4, New Zealand, 128.2
