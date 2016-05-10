@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>95de88c7-ddf1-4ff6-b68b-a567d832e0f9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>oecd_with_function(20160510).py</StartupFile>
+    <StartupFile>testclass_run(0510).py</StartupFile>
     <SearchPath>.</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -42,6 +42,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="oecd_with_function%2820160510%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="testclass.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="testclass_run%280510%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="testfile.py">
