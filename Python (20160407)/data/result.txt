@@ -1,0 +1,8 @@
+Asia, 2002.266667, Japan, 4379.700000
+America, 5430.000000, United States, 13841.300000
+Europe, 784.895455, France, 2555.300000
+Europe, 784.895455, Germany, 3321.900000
+Europe, 784.895455, Italy, 2100.400000
+Europe, 784.895455, Spain, 1436.200000
+Europe, 784.895455, United Kingdom, 2770.200000
+Australia, 518.400000, Australia, 908.600000
