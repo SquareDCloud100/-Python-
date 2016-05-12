@@ -26,6 +26,24 @@
     <Compile Include="calculate_execute.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="housekim_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="housekim_son_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="housepark_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="oecd_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="oecd_source_code.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_source_code.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="20160512 필기.txt" />

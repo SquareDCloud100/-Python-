@@ -11,4 +11,35 @@ _del_ -> instance 제거 함수
 
 	박씨집을 전부다객체로 정의
 	
-	사람이 죽으면 객체를 삭제해야 하기 때문에 __del__ tkdyd
+	사람이 죽으면 객체를 삭제해야 하기 때문에 __del__ 사용
+	
+self를 붙여아 class 안에서 전체 슬 수 있는 전역변수가 됨.
+
+self를 붙이면 insatnce소속, 그냥 하면 class 소속.
+
+----------------------------------------------------------
+
+# Class의 상속에 관한 내용
+
+A class - B Class(애새끼)
+
+부모가 가지고 있는 property나 function을 전부 사용할 수 있다.	
+instance끼리 연산자 기호를 사용하는것
+
+모듈 - 함수나 변수들 혹은 클래스들을 모아둔 파일.
+
+if __name__ == "__main__" -> 다른 파일에서 불러오면 이게 false라서 안된다
+
+
+
+기본적으로 __name__이 false  섹스 
+
+파일 자체를 실행할 수 있게 된다.
+
+클래스의 variable만 가져오고 싶다.
+
+class country:
+	conti=""
+	gdp = 0
+	export = 0
+	import = 0 
