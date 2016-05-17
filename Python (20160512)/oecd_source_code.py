@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import codecs
 from oecd_class import Country
+from oecd_continent_class import Continent
 f = open('./data/oecd.txt', 'r')
 out_f = open('./data/result.txt', 'w')
 lines = f.readlines()
@@ -23,5 +24,9 @@ for line in lines:
     save_dict(fields[0], float(fields[2]), conti_gdp)
     country_gdp[fields[1]] = [fields[0], float(fields[2])]
 
+for c in countries:
+    Continent(c.conti, c.gdp)
+
     # country_info[fields[1]] = [fields[0], float(fields[2])]
     
+

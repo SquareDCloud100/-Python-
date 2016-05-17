@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>955b7768-3cfb-428e-ae24-c61220186d0b</ProjectGuid>
+    <ProjectGuid>9a1d56fb-d032-4311-8cf7-b5bfd9e4900b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>calculate_class.py</StartupFile>
+    <StartupFile>Python_grep__20160517_.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Python (20160512)</Name>
-    <RootNamespace>Python (20160512)</RootNamespace>
+    <Name>Python grep (20160517)</Name>
+    <RootNamespace>Python grep (20160517)</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,34 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="calculate_class.py" />
-    <Compile Include="calculate_execute.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="housekim_class.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="housekim_son_class.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="housepark_class.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="oecd_class.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="oecd_continent_class.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="oecd_source_code.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="test_source_code.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Python_grep__20160517_.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="20160512 필기.txt" />
+    <Content Include="TextFile1.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

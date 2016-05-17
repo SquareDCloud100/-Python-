@@ -1,0 +1,23 @@
+import re를 통해 정규표현식 밑밥깔고
+
+a= re.compile(r"^[a-z]+")
+
+r은 그냥 붙여줌
+
+이런식으로 object하나를 만들어준다.
+>>> a= re.compile(r"^[a-z]+")
+>>> a
+<SRE_Pattern object at 0x02dd99a0>
+>>> b= "asdfzc23948192834091234"
+>>> b
+'asdfzc23948192834091234'
+>>> a.search(b)
+<SRE_Match object at 0x02e169e8>
+
+서치를 하면 function에서 object를 내보낸다.
+
+matchobj = a.search(b)
+print matchobj.group(0)
+ -> asdfzc
+
+ group - 정규표현식에서 몇번 그룹을 출력해라인데... 0을 집어넣으면 전체에서 찾아진 애를 집어넣게 된다.

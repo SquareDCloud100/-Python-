@@ -2,7 +2,7 @@
 
 #-*- coding: UTF-8 -*-#
 
-from housekim_son_class import Housepark
+from housekim_class import Housekim
 
-park = Housepark("천음")
-park.travel("독도",3)
+kim = Housekim(u"천음")
+kim.travel(u"독도")
